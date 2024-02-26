@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./index.css";
 import Navbar from "./components/Navbar";
 import { About, Contact, Home, Projects } from "./pages";
 
 function App() {
-  return <main className="bg-slate-300/20">
+  return <main className="bg-slate-300/20 h-full">
     <Router>
       <Navbar />
       <Routes>
