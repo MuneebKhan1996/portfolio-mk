@@ -1,15 +1,8 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import hero from './hero.jpg';
+import nextbridge from './nextbridge.jpg';
+import techclan from './techclan.jpg';
+import luminogics from './luminogics.jpg';
+import formulatrix from './formulatrix.jpg';
+import logo from './logo.svg';
 
-export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
-}
+export { hero, nextbridge, techclan, luminogics, formulatrix, logo };
