@@ -149,23 +149,10 @@ export const experiences = [
   },
   {
     title: 'Software Engineer',
-    company_name: 'TechClan',
-    icon: techclan,
-    iconBg: '#fbc3bc',
-    date: 'March 2021 - March 2022',
-    points: [
-      "Developed frontend features and interfaces for Upcover's Fintech product using Next.js and TypeScript, emphasizing pixel-perfect design and user experience.",
-      'Integrated new components and features into the application, ensuring seamless functionality and compatibility with existing systems.',
-      'Leveraged expertise in Node.js to build robust backend infrastructure, facilitating efficient data management and smooth interaction between frontend and backend systems.',
-      'Maintained a strong focus on code quality and efficiency, employing best practices in React.js and Node.js development to deliver high-performing, reliable software solutions.',
-    ],
-  },
-  {
-    title: 'Software Engineer',
     company_name: 'Luminogics',
     icon: luminogics,
     iconBg: '#b7e4c7',
-    date: 'April 2022 - November 2022',
+    date: 'March 2021 - November 2022',
     points: [
       'Led the development of the Wesley Allen 3D Product Configurator using Three.js and React.js, while mentoring junior team members and collaborating with WordPress developers for seamless integration.',
       'Contributed to the Barq App project by integrating Blixt wallet with Tangem SDK for NFC crypto transactions, slated for presentation at the Entrepreneurship World Cup 2022.',
@@ -208,51 +195,78 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
     theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
+    name: 'PULSE - TFF',
     description:
-      'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
+      'The µPULSE® - TFF System is a fully automated, walk away system that uses tangential flow filtration (TFF) for sample concentration and diafiltration (buffer exchange, desalting). My responsibilities include code refactoring, code cleaning, making the architecture according to Formulatrix standards, using a common UI libaray developing pixel perfect new feactures and fixing bugs, memory leaks etc.',
+    link: 'https://formulatrix.com/pulse-tff-system-sample-concentration-diafiltration/',
   },
   {
-    iconUrl: threads,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
+    name: 'Engineering Review System',
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
+      'An internal review system app that uses React as a frontend tech. I was assigned to upgrade UI to a modern design, implementing new features and using Formulatrix common UI.',
   },
   {
-    iconUrl: car,
     theme: 'btn-back-blue',
-    name: 'Car Finding App',
+    name: 'FAST Liquid Handler',
     description:
-      'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+      'The F.A.S.T. (Flow Axial Seal Tip) is a reliable and easy-to-use liquid transfer system designed to move any viscosity of liquid quickly with its one of kind positive displacement, 96-channel head. My job is to make sure code is clean, well maintained and according to Formulatrix standards. In addition to that, I also developed new features working closely with backend developers using React and SignalR.',
+    link: 'https://formulatrix.com/liquid-handling-systems/fast-liquid-handler/',
   },
   {
-    iconUrl: snapgram,
     theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
+    name: 'Frontend File Uploader - WordPress Plugin',
     description:
-      'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
+      'Being my personal product, I have done complete work on this product single handedly from brainstorming to designing and to development. This plugin allows users to attach files in any form and upload them along with form submission.',
+    link: 'https://wordpress.org/plugins/frontend-file-upload/',
   },
   {
-    iconUrl: estate,
     theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    name: 'Upcover',
     description:
-      'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
+      'As a Frontend Developer for this Fintech app, I developed multiple components and screens from scratch to pixel perfection. This app is mainly built in Next.js and language used is Typescript.',
+    link: 'app.upcover.com',
   },
   {
-    iconUrl: summiz,
-    theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    theme: 'btn-back-red',
+    name: 'NFT Marketplace',
     description:
-      'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+      'Developed this NFT marketplace after completing a Udemy course on Blockchain with backend in Solidity and Frontend in Javascript, React and Web3.js',
+    link: 'https://github.com/MuneebKhan1996/nft-market',
+  },
+  {
+    theme: 'btn-back-blue',
+    name: 'Tesla Workshop',
+    description:
+      'Developed this Three.js project using React, React-three-fiber/drei, Three.js after completing Udemy course on Three.js',
+    link: 'https://tesla-workshop.vercel.app/',
+  },
+  {
+    theme: 'btn-back-yellow',
+    name: 'Simple Vote - WordPress Plugin',
+    description:
+      'Simple Vote by PressTigers is an easy, lightweight plugin that adds a voting section for visitors on all your post types. Technologies used for this plugin include PHP, Javascript (jQuery), HTML, CSS, AJAX and MySQL.',
+    link: 'https://wordpress.org/plugins/simple-vote/',
+  },
+  {
+    theme: 'btn-back-parrot',
+    name: 'Cloud Storage Connector - WordPress Plugin',
+    description:
+      'Cloud Storage Connector add-on is an easy and lightweight add-on that lets you upload job attachments to Dropbox and Google Drive at the submission of applications. Once you’ve installed the add-on, please configure your Dropbox and Google Drive connections from the setting and you’ll be all set to upload files to your Dropbox and Google Drive.',
+    link: 'https://market.presstigers.com/product/cloud-storage-connector-add-on/',
+  },
+  {
+    theme: 'btn-back-purple',
+    name: 'Email Notifications Templates - WordPress Plugin',
+    description:
+      'The Email Notification Templates add-on is an easy and lightweight add-on that makes the email notifications more personalized by allowing you to write custom email templates instead of the predefined one’s. Once you’ve uploaded the add-on, you’ll be able to change email templates for Applicant, HR and Admin through the settings of the Simple Job Board.',
+    link: 'https://market.presstigers.com/product/email-notification-templates-add-on/',
+  },
+  {
+    theme: 'btn-back-orange',
+    name: 'RFID Scanner - Final Year Project',
+    description:
+      'Lead a team of 2 developers. Designed and developed a fully automated RFID scanner for children to mark their attendance and let the parents know the checking in and out times.',
   },
 ];

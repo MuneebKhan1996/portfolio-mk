@@ -9,7 +9,6 @@ import Plane from '../models/Plane';
 import HomeInfo from '../components/HomeInfo';
 
 import sakura from '../assets/sakura.mp3'
-import Dragon from '../models/Dragon';
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -77,11 +76,10 @@ const Home = () => {
           <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />
           <hemisphereLight skyColor="#b1e1ff" groundColor={'#000000'} />
-          <Dragon isRotating={isRotating} scale={[1.5, 1.5, 1.5]} position={[0, -2, -4]} rotation={[0, 20, 0]} />
           <Bird />
           <Sky isRotating={isRotating} />
           <Island position={islandPosition} scale={islandScale} rotation={islandRotation} isRotating={isRotating} setIsRotating={setIsRotating} setCurrentStage={setCurrentStage} intensity={1} />
-          {/* <Plane isRotating={isRotating} scale={planeScale} position={planePosition} rotation={[0, 20, 0]} /> */}
+          <Plane isRotating={isRotating} scale={planeScale} position={planePosition} rotation={[0, 20, 0]} />
         </Suspense>
       </Canvas>
       <div className='absolute bottom-2 left-2'>
