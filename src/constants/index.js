@@ -189,7 +189,7 @@ export const socialLinks = [
   {
     name: 'LinkedIn',
     iconUrl: linkedin,
-    link: 'www.linkedin.com/in/muneeb-khan-21j',
+    link: 'www.linkedin.com/in/muneebk21',
   },
 ];
 
@@ -226,7 +226,7 @@ export const projects = [
     name: 'Upcover',
     description:
       'As a Frontend Developer for this Fintech app, I developed multiple components and screens from scratch to pixel perfection. This app is mainly built in Next.js and language used is Typescript.',
-    link: 'app.upcover.com',
+    link: 'https://app.upcover.com',
   },
   {
     theme: 'btn-back-red',
